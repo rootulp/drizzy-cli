@@ -1,8 +1,9 @@
 {
   "name": "drizzy",
-  "version": "1.0.2",
-  "description": "Consumes Drake Lyrics",
+  "version": "1.0.1",
+  "description": "Prints Drake Lyrics",
   "dependencies": {
+    "meow": "^3.7.0",
     "request": "^2.81.0"
   },
   "devDependencies": {},
