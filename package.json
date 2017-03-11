@@ -14,7 +14,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "xo"
+    "test": "standard"
   },
   "files": [
     "cli.js"
@@ -27,12 +27,10 @@
     "chalk": "^1.1.3",
     "meow": "^3.7.0",
     "ora": "^1.1.0",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "request-promise": "^4.1.1"
   },
   "devDependencies": {
-    "xo": "^0.17.1"
-  },
-  "xo": {
-    "space": true
+    "standard": "^9.0.1"
   }
 }
