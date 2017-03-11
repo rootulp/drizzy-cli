@@ -4,16 +4,22 @@
   "description": "Prints Drake Lyrics",
   "dependencies": {
     "meow": "^3.7.0",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "update-notifier": "^2.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "xo": "^0.17.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo"
   },
   "author": {
     "name": "Rootul Patel",
     "email": "rootulp@gmail.com",
     "url": "rootulp.com"
+  },
+  "xo": {
+    "space": true
   },
   "bin": "cli.js",
   "license": "MIT",
