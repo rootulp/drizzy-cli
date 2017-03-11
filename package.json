@@ -1,6 +1,6 @@
 {
   "name": "drizzy",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Prints Drake lyrics using drizzy-server",
   "dependencies": {
     "meow": "^3.7.0",
