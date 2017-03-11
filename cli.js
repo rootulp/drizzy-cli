@@ -2,6 +2,7 @@
 'use strict';
 const request = require('request');
 const meow = require('meow');
+const chalk = require('chalk');
 const ora = require('ora');
 
 const DRIZZY_API = 'http://drizzy-server.herokuapp.com';
@@ -16,6 +17,6 @@ const spinner = ora().start();
 request(DRIZZY_API + '/lyric', function (error, response, body) {
   spinner.stopAndPersist({
     symbol: '🎧 ',
-    text: body
+    text: chalk.blue(body)
   });
 });
