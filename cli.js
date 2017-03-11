@@ -25,9 +25,12 @@ const options = {
 }
 
 rp(options)
-  .then((data) => {
+  .then((lyric) => {
     spinner.stopAndPersist({
       symbol: '🎧 ',
-      text: chalk.blue(data)
+      text: chalk.blue(lyric)
     })
   })
+  .catch((error) => {
+    spinner.fail(error)
+  });
