@@ -15,5 +15,6 @@
     "url": "rootulp.com"
   },
   "bin": "cli.js",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": "rootulp/drizzy-cli"
 }
