@@ -1,6 +1,7 @@
 # drizzy-cli
 
 [![npm version](https://badge.fury.io/js/drizzy.svg)](https://badge.fury.io/js/drizzy)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![License](https://img.shields.io/:license-mit-blue.svg)](https://rootulp.mit-license.org)
 
 > Prints Drake lyrics using [drizzy-server](https://github.com/rootulp/drizzy-server)
