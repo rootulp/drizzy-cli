@@ -1,0 +1,19 @@
+{
+  "name": "drizzy",
+  "version": "1.0.1",
+  "description": "Consumes Drake Lyrics",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Rootul Patel",
+    "email": "rootulp@gmail.com",
+    "url": "rootulp.com"
+  },
+  "bin": "cli.js",
+  "license": "MIT"
+}
