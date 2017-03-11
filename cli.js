@@ -15,7 +15,7 @@ const cli = meow([
 const spinner = ora().start();
 request(DRIZZY_API + '/lyric', function (error, response, body) {
   spinner.stopAndPersist({
-    "symbol": "🎧 ",
-    "text": body
+    symbol: '🎧 ',
+    text: body
   });
 });
