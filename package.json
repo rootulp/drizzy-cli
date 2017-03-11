@@ -4,6 +4,7 @@
   "description": "Prints Drake Lyrics",
   "dependencies": {
     "meow": "^3.7.0",
+    "ora": "^1.1.0",
     "request": "^2.81.0",
     "update-notifier": "^2.1.0"
   },
