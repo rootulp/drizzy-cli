@@ -1,7 +1,6 @@
 #! /usr/bin/env node
 'use strict'
-const request = require('request')
-const rp = require('request-promise')
+const requestPromise = require('request-promise')
 const meow = require('meow')
 const chalk = require('chalk')
 const ora = require('ora')
@@ -24,7 +23,7 @@ const options = {
   uri: DRIZZY_API + '/lyric'
 }
 
-rp(options)
+requestPromise(options)
   .then((lyric) => {
     spinner.stopAndPersist({
       symbol: '🎧 ',
@@ -33,4 +32,4 @@ rp(options)
   })
   .catch((error) => {
     spinner.fail(error)
-  });
+  })
