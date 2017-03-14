@@ -1,6 +1,6 @@
 {
   "name": "drizzy",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Prints Drake lyrics using drizzy-server",
   "license": "MIT",
   "repository": "rootulp/drizzy-cli",
