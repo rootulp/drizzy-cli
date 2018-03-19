@@ -7,7 +7,7 @@ const ora = require('ora')
 const updateNotifier = require('update-notifier')
 const pkg = require('./package.json')
 
-const DRIZZY_API = 'http://drizzy-server.herokuapp.com'
+const DRIZZY_API = 'https://drizzy-server.herokuapp.com'
 
 meow([
   'Usage',
