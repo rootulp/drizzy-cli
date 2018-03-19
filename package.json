@@ -7,7 +7,7 @@
   "author": {
     "name": "Rootul Patel",
     "email": "rootulp@gmail.com",
-    "url": "rootulp.com"
+    "url": "https://rootulp.com"
   },
   "bin": "cli.js",
   "engines": {
