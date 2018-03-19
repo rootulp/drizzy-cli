@@ -6,7 +6,7 @@
 
 > Prints Drake lyrics using [drizzy-server](https://github.com/rootulp/drizzy-server)
 
-![Screenshot](screenshot.gif)
+![screencast](screencast.gif)
 
 ## Install
 
