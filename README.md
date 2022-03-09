@@ -4,7 +4,7 @@
 [![standard](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![License](https://img.shields.io/:license-mit-blue.svg)](https://rootulp.mit-license.org)
 
-> Prints Drake lyrics using [drizzy-server](https://github.com/rootulp/drizzy-server)
+Prints Drake lyrics using [drizzy-server](https://github.com/rootulp/drizzy-server)
 
 ![screencast](screencast.gif)
 
