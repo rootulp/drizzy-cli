@@ -28,7 +28,3 @@ $ drizzy --help
 ## Inspiration
 
 Projects from [Sindre Sorhus](https://sindresorhus.com)
-
-## License
-
-[MIT](https://rootulp.mit-license.org/) © [Rootul Patel](https://rootulp.com)
